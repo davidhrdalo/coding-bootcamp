@@ -1,0 +1,286 @@
+[
+  {
+    "block": "block1_select",
+    "id": "01_select_columns",
+    "title": "Select columns",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block1_select",
+    "id": "02_where_filters",
+    "title": "Filter rows with WHERE",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block1_select",
+    "id": "03_null_handling",
+    "title": "NULL values",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block1_select",
+    "id": "04_like_and_in",
+    "title": "LIKE and IN",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block1_select",
+    "id": "05_date_ranges",
+    "title": "Date ranges",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block1_select",
+    "id": "06_case_expression",
+    "title": "CASE expressions",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block1_select",
+    "id": "07_distinct_values",
+    "title": "DISTINCT",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block1_select",
+    "id": "08_pagination",
+    "title": "LIMIT and OFFSET",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block2_joins_and_aggregates",
+    "id": "09_aggregates",
+    "title": "Aggregate functions",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block2_joins_and_aggregates",
+    "id": "10_group_by_having",
+    "title": "GROUP BY and HAVING",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block2_joins_and_aggregates",
+    "id": "11_join_tables",
+    "title": "Joining four tables",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block2_joins_and_aggregates",
+    "id": "12_left_join_missing",
+    "title": "LEFT JOIN to find missing rows",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block2_joins_and_aggregates",
+    "id": "13_spend_per_customer",
+    "title": "Totals per customer",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block2_joins_and_aggregates",
+    "id": "14_top_products",
+    "title": "Top N per measure",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block2_joins_and_aggregates",
+    "id": "15_monthly_revenue",
+    "title": "Grouping by month",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block2_joins_and_aggregates",
+    "id": "16_category_average",
+    "title": "HAVING with an average",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block3_subqueries_and_windows",
+    "id": "17_subquery_filter",
+    "title": "Subquery in WHERE",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block3_subqueries_and_windows",
+    "id": "18_exists",
+    "title": "EXISTS (correlated subquery)",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block3_subqueries_and_windows",
+    "id": "19_cte_above_average",
+    "title": "Common table expression (WITH)",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block3_subqueries_and_windows",
+    "id": "20_self_join",
+    "title": "Self join",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block3_subqueries_and_windows",
+    "id": "21_window_rank",
+    "title": "Window function: RANK",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block3_subqueries_and_windows",
+    "id": "22_running_total",
+    "title": "Window function: running total",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block3_subqueries_and_windows",
+    "id": "23_recursive_cte",
+    "title": "Recursive CTE: an org chart",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block3_subqueries_and_windows",
+    "id": "24_latest_per_group",
+    "title": "Latest row per group (ROW_NUMBER)",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block3_subqueries_and_windows",
+    "id": "25_set_operations",
+    "title": "Set operations: EXCEPT",
+    "mode": "query",
+    "ordered": true
+  },
+  {
+    "block": "block4_changing_data_and_design",
+    "id": "26_insert_rows",
+    "title": "INSERT",
+    "mode": "script",
+    "ordered": true,
+    "verify": [
+      "SELECT id, name, email, country, signup_date FROM customers ORDER BY id"
+    ]
+  },
+  {
+    "block": "block4_changing_data_and_design",
+    "id": "27_update_rows",
+    "title": "UPDATE",
+    "mode": "script",
+    "ordered": true,
+    "verify": [
+      "SELECT id, price FROM products ORDER BY id"
+    ]
+  },
+  {
+    "block": "block4_changing_data_and_design",
+    "id": "28_delete_rows",
+    "title": "DELETE and foreign keys",
+    "mode": "script",
+    "ordered": true,
+    "verify": [
+      "SELECT (SELECT COUNT(*) FROM orders) AS orders, (SELECT COUNT(*) FROM order_items) AS items, (SELECT COUNT(*) FROM orders WHERE status = 'cancelled') AS cancelled"
+    ]
+  },
+  {
+    "block": "block4_changing_data_and_design",
+    "id": "29_upsert",
+    "title": "UPSERT (INSERT ... ON CONFLICT)",
+    "mode": "script",
+    "ordered": true,
+    "verify": [
+      "SELECT page, views FROM page_views ORDER BY page"
+    ]
+  },
+  {
+    "block": "block4_changing_data_and_design",
+    "id": "30_create_table",
+    "title": "CREATE TABLE with constraints",
+    "mode": "script",
+    "ordered": true,
+    "verify": [
+      "SELECT name, lower(type) AS type, \"notnull\" AS not_null, pk, dflt_value IS NOT NULL AS has_default FROM pragma_table_info('reviews') ORDER BY cid",
+      "SELECT \"table\" AS ref_table, \"from\" AS from_col, \"to\" AS to_col FROM pragma_foreign_key_list('reviews') ORDER BY \"from\""
+    ],
+    "probes": [
+      {
+        "sql": "INSERT INTO reviews (product_id, customer_id, rating) VALUES (1, 1, 5)",
+        "expect": "ok",
+        "why": "a valid review without a comment or date must work"
+      },
+      {
+        "sql": "INSERT INTO reviews (product_id, customer_id, rating) VALUES (1, 1, 6)",
+        "expect": "error",
+        "why": "a rating above 5 must be rejected"
+      },
+      {
+        "sql": "INSERT INTO reviews (product_id, customer_id, rating) VALUES (1, 1, 0)",
+        "expect": "error",
+        "why": "a rating below 1 must be rejected"
+      },
+      {
+        "sql": "INSERT INTO reviews (customer_id, rating) VALUES (1, 3)",
+        "expect": "error",
+        "why": "product_id is required"
+      },
+      {
+        "sql": "INSERT INTO reviews (product_id, customer_id, rating) VALUES (9999, 1, 3)",
+        "expect": "error",
+        "why": "the product must exist (foreign key)"
+      },
+      {
+        "sql": "INSERT INTO reviews (product_id, customer_id, rating) VALUES (1, 9999, 3)",
+        "expect": "error",
+        "why": "the customer must exist (foreign key)"
+      }
+    ]
+  },
+  {
+    "block": "block4_changing_data_and_design",
+    "id": "31_indexes",
+    "title": "Indexes and query plans",
+    "mode": "script",
+    "ordered": true,
+    "probes": [
+      {
+        "plan": "SELECT * FROM orders WHERE customer_id = 3",
+        "must_contain": [
+          "INDEX"
+        ],
+        "why": "Create an index on orders(customer_id)."
+      },
+      {
+        "plan": "SELECT name FROM products WHERE category = 'Books' ORDER BY price",
+        "must_contain": [
+          "INDEX"
+        ],
+        "must_not_contain": [
+          "TEMP B-TREE"
+        ],
+        "why": "Create ONE index on products(category, price): equality column first, sort column second."
+      }
+    ]
+  }
+]

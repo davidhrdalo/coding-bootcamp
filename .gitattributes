@@ -1,0 +1,5 @@
+# Keep the same line endings on Mac and Windows so git shows no phantom changes.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.db binary
