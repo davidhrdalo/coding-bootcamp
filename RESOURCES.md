@@ -40,6 +40,26 @@ External places to practise, learn and listen. The list is short on purpose: pic
 - Podcast: [Syntax](https://syntax.fm/) (web development, JavaScript and TypeScript)
 - YouTube: [Fireship](https://www.youtube.com/@Fireship) (short overviews), [Matt Pocock](https://www.youtube.com/@mattpocockuk) (TypeScript tips)
 
+## Learn React and the web
+
+- [react.dev: Learn React](https://react.dev/learn): the official tutorial and guides (read "Thinking in React", "Choosing the State Structure" and "You Might Not Need an Effect")
+- [react.dev: API reference](https://react.dev/reference/react) for every hook
+- [React Native documentation](https://reactnative.dev/docs/getting-started): core components and how it differs from the web
+- [Testing Library for React](https://testing-library.com/docs/react-testing-library/intro/) and [Vitest](https://vitest.dev/guide/) (what the `web/` track uses)
+- [Overreacted](https://overreacted.io/): Dan Abramov's essays on how React really works
+- [Josh Comeau's React guides](https://www.joshwcomeau.com/react/): clear, visual explanations
+- [MDN: Learn web development](https://developer.mozilla.org/en-US/docs/Learn_web_development) and [MDN: HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)
+- [web.dev Learn](https://web.dev/learn): HTML, CSS, accessibility, performance
+- [roadmap.sh: React developer roadmap](https://roadmap.sh/react)
+
+## Learn object-oriented design and patterns
+
+- [Refactoring Guru: design patterns](https://refactoring.guru/design-patterns): each pattern explained with code
+- [Architecture Patterns with Python](https://www.cosmicpython.com/): free online book on clean structure and testing
+- [The Python Patterns Guide](https://python-patterns.guide/) by Brandon Rhodes
+- [Python: abc](https://docs.python.org/3/library/abc.html) and [typing.Protocol](https://docs.python.org/3/library/typing.html#typing.Protocol)
+- [Martin Fowler: Mocks Aren't Stubs](https://martinfowler.com/articles/mocksArentStubs.html)
+
 ## Learn Swift and iOS
 
 - [The Swift Programming Language](https://docs.swift.org/swift-book/): the official book, free

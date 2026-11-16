@@ -1,8 +1,8 @@
 # Software engineering theory
 
 Short, interview-focused notes on how software actually works. Each note has plain
-explanations, a few "say it out loud" questions, and links to go deeper. Four of them have
-a hands-on exercise with tests, so you can prove you understand it.
+explanations, a few "say it out loud" questions, and links to go deeper. Several of them have
+hands-on exercises with tests, so you can prove you understand it.
 
 | # | Note | Hands-on exercise (`theory/exercises/`) |
 |---|---|---|
@@ -20,6 +20,9 @@ a hands-on exercise with tests, so you can prove you understand it.
 | 12 | [Data types](12-data-types.md): floats, strings and Unicode, mutability, null, type systems | `python/exercises/week0_data_types/` |
 | 13 | [JavaScript and TypeScript essentials](13-javascript-and-typescript.md): closures, `this`, the event loop, promises, TypeScript types | `typescript/exercises/` |
 | 14 | [Swift essentials](14-swift-essentials.md): optionals, value vs reference types, ARC, protocols, async/await and actors, SwiftUI state | `swift/Sources/` |
+| 15 | [Web fundamentals](15-web-fundamentals.md): HTTP, the DOM, fetch, CORS, REST, JWTs | `python/exercises/week5_web_http/`, `week6_rest_api/`, `web/exercises/dom/` and `api/` |
+| 16 | [Object-oriented design](16-oo-design.md): encapsulation, composition, SOLID, dependency injection, patterns | `python/exercises/week7_oo_design/` |
+| 17 | [React refresher](17-react-refresher.md): state, effects, keys, context, reducers, memo, testing, React Native | `web/exercises/react/` |
 
 ## How to use these
 
@@ -28,7 +31,7 @@ a hands-on exercise with tests, so you can prove you understand it.
 3. Close the note and explain it out loud as if to an interviewer. Where you stall, re-read.
 4. Answer the interview questions at the bottom of the note, out loud, in two or three sentences.
 
-Suggested order: 12, 01, 07, 02, 03, 04, 05, 06, then 08 to 11, 13 alongside the TypeScript track, and 14 alongside the Swift track.
+Suggested order: 12, 01, 07, 02, 03, 04, 05, 06, then 08 to 11, 13 alongside the TypeScript track, 14 alongside the Swift track, 15 with Python weeks 5 and 6 and the DOM exercises, 16 with Python week 7, and 17 with the React lessons.
 
 ## Honest scope
 
